@@ -3,13 +3,11 @@
 #include <NXP/crp.h>
 #include "myreg.h"
 
-int main(void)
-	{
+int main(void) {
 	init();
 
-	while(1)
-	{
+	while(1) {
 	}
 
 	return 0 ;
-	}
+}
