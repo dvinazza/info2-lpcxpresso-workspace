@@ -8,20 +8,22 @@ void init(void)
 
 void Init_GPIO(void)
 {
-	SetDIR(PORT0, 22, 1);
-	SetDIR(PORT2, 10, 0);
-	SetDIR(PORT2, 13, 0);
+	SetPINSEL(P0,28,00);
+	SetDIR(PORT0,28,1);
+
 }
 
 void Init_IntExt(void)
 {
-	SetPINSEL(P2, 10, 1); //Interrupcion
-	SetPINSEL(P2, 13, 1);
+	SetPINSEL(P2,10,01);
+	SetPINSEL(P2,13,01);
 
-	EXTMODE = (0x0F);
-	EXTPOLAR &= ~(0x00);
+	EXTMODE |=(0x09);
 
-	ISER0 |= (0x01 << 18);
-	ISER0 |= (0x01 << 21);
+	EXTPOLAR &=~(0x09);
+
+
+	ISER0 |=(0x01<<18);
+	ISER0 |=(0x01<<21);
 }
 
