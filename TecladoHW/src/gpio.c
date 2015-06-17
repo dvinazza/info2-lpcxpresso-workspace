@@ -1,4 +1,5 @@
 #include "myreg.h"
+#include "gpio.h"
 
 void setPINSEL (uint8_t puerto, uint8_t pin, uint8_t modo)
 {
