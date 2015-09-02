@@ -1,0 +1,567 @@
+Archive member included because of file (symbol)
+
+/usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+                              ./Drivers/cr_startup_lpc176x.o (__main)
+
+Allocating common symbols
+Common symbol       size              file
+
+estadoMaquina       0x1               ./Aplicacion/TPL3-Aplicacion.o
+auxDisplay          0x6               ./Primitivas/TPL3-PR-DisplayTeclado.o
+estadoLed           0x1               ./Aplicacion/TPL3-Aplicacion.o
+bufferSegmentos     0x7               ./Drivers/TPL3-FW-Expansion_2.o
+bufferTecla         0x1               ./Drivers/driver_teclado.o
+bufferValor         0x4               ./Aplicacion/TPL3-Aplicacion.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .group         0x00000000        0x8 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .group         0x00000000        0x8 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .group         0x00000000        0x8 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .group         0x00000000        0x8 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .text          0x00000000        0x0 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .data          0x00000000        0x0 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .bss           0x00000000        0x0 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .data.Tabla_Digitos_BCD_7seg
+                0x00000000        0xa ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .text.actualizarDisplay
+                0x00000000       0xb0 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_info    0x00000000       0xe4 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_abbrev  0x00000000       0x95 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_aranges
+                0x00000000       0x20 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_ranges  0x00000000       0x10 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_macro   0x00000000       0x35 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_macro   0x00000000      0x874 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_macro   0x00000000       0xfa ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_macro   0x00000000       0xd6 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_macro   0x00000000      0x1c6 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_macro   0x00000000       0x2e ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_line    0x00000000      0x112 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_str     0x00000000     0x3218 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .comment       0x00000000       0x71 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .debug_frame   0x00000000       0x38 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .ARM.attributes
+                0x00000000       0x33 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ COMMON         0x00000000        0x6 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .group         0x00000000        0x8 ./Drivers/Oscilador.o
+ .group         0x00000000        0x8 ./Drivers/Oscilador.o
+ .group         0x00000000        0x8 ./Drivers/Oscilador.o
+ .group         0x00000000        0x8 ./Drivers/Oscilador.o
+ .text          0x00000000        0x0 ./Drivers/Oscilador.o
+ .data          0x00000000        0x0 ./Drivers/Oscilador.o
+ .bss           0x00000000        0x0 ./Drivers/Oscilador.o
+ .text.InitPLL  0x00000000      0x140 ./Drivers/Oscilador.o
+ .debug_info    0x00000000       0x6b ./Drivers/Oscilador.o
+ .debug_abbrev  0x00000000       0x4e ./Drivers/Oscilador.o
+ .debug_aranges
+                0x00000000       0x20 ./Drivers/Oscilador.o
+ .debug_ranges  0x00000000       0x10 ./Drivers/Oscilador.o
+ .debug_macro   0x00000000       0x2c ./Drivers/Oscilador.o
+ .debug_macro   0x00000000      0x874 ./Drivers/Oscilador.o
+ .debug_macro   0x00000000       0xfa ./Drivers/Oscilador.o
+ .debug_macro   0x00000000       0xd6 ./Drivers/Oscilador.o
+ .debug_macro   0x00000000      0x1c6 ./Drivers/Oscilador.o
+ .debug_line    0x00000000       0xfe ./Drivers/Oscilador.o
+ .debug_str     0x00000000     0x3148 ./Drivers/Oscilador.o
+ .comment       0x00000000       0x71 ./Drivers/Oscilador.o
+ .debug_frame   0x00000000       0x30 ./Drivers/Oscilador.o
+ .ARM.attributes
+                0x00000000       0x33 ./Drivers/Oscilador.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-CONFIG.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-CONFIG.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-CONFIG.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-CONFIG.o
+ .text          0x00000000        0x0 ./Drivers/TPL3-FW-CONFIG.o
+ .data          0x00000000        0x0 ./Drivers/TPL3-FW-CONFIG.o
+ .bss           0x00000000        0x0 ./Drivers/TPL3-FW-CONFIG.o
+ .text.SetPINSEL
+                0x00000000       0x88 ./Drivers/TPL3-FW-CONFIG.o
+ .text.SetPINMODE
+                0x00000000       0x7c ./Drivers/TPL3-FW-CONFIG.o
+ .debug_info    0x00000000       0xe1 ./Drivers/TPL3-FW-CONFIG.o
+ .debug_abbrev  0x00000000       0x86 ./Drivers/TPL3-FW-CONFIG.o
+ .debug_aranges
+                0x00000000       0x28 ./Drivers/TPL3-FW-CONFIG.o
+ .debug_ranges  0x00000000       0x18 ./Drivers/TPL3-FW-CONFIG.o
+ .debug_macro   0x00000000       0x2c ./Drivers/TPL3-FW-CONFIG.o
+ .debug_macro   0x00000000      0x874 ./Drivers/TPL3-FW-CONFIG.o
+ .debug_macro   0x00000000       0xfa ./Drivers/TPL3-FW-CONFIG.o
+ .debug_macro   0x00000000       0xd6 ./Drivers/TPL3-FW-CONFIG.o
+ .debug_macro   0x00000000      0x1c6 ./Drivers/TPL3-FW-CONFIG.o
+ .debug_line    0x00000000       0xdb ./Drivers/TPL3-FW-CONFIG.o
+ .debug_str     0x00000000     0x317b ./Drivers/TPL3-FW-CONFIG.o
+ .comment       0x00000000       0x71 ./Drivers/TPL3-FW-CONFIG.o
+ .debug_frame   0x00000000       0x60 ./Drivers/TPL3-FW-CONFIG.o
+ .ARM.attributes
+                0x00000000       0x33 ./Drivers/TPL3-FW-CONFIG.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-Expansion_2.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-Expansion_2.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-Expansion_2.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-Expansion_2.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-Expansion_2.o
+ .text          0x00000000        0x0 ./Drivers/TPL3-FW-Expansion_2.o
+ .data          0x00000000        0x0 ./Drivers/TPL3-FW-Expansion_2.o
+ .bss           0x00000000        0x0 ./Drivers/TPL3-FW-Expansion_2.o
+ .data.auxDisplaySegmentosPuertos
+                0x00000000        0x8 ./Drivers/TPL3-FW-Expansion_2.o
+ .data.auxDisplaySegmentosPines
+                0x00000000        0x8 ./Drivers/TPL3-FW-Expansion_2.o
+ .debug_macro   0x00000000      0x874 ./Drivers/TPL3-FW-Expansion_2.o
+ .debug_macro   0x00000000       0xfa ./Drivers/TPL3-FW-Expansion_2.o
+ .debug_macro   0x00000000       0xd6 ./Drivers/TPL3-FW-Expansion_2.o
+ .debug_macro   0x00000000      0x1c6 ./Drivers/TPL3-FW-Expansion_2.o
+ .debug_macro   0x00000000       0x2e ./Drivers/TPL3-FW-Expansion_2.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-GPIO.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-GPIO.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-GPIO.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-GPIO.o
+ .text          0x00000000        0x0 ./Drivers/TPL3-FW-GPIO.o
+ .data          0x00000000        0x0 ./Drivers/TPL3-FW-GPIO.o
+ .bss           0x00000000        0x0 ./Drivers/TPL3-FW-GPIO.o
+ .text.SetDIR   0x00000000       0x70 ./Drivers/TPL3-FW-GPIO.o
+ .debug_macro   0x00000000      0x874 ./Drivers/TPL3-FW-GPIO.o
+ .debug_macro   0x00000000       0xfa ./Drivers/TPL3-FW-GPIO.o
+ .debug_macro   0x00000000       0xd6 ./Drivers/TPL3-FW-GPIO.o
+ .debug_macro   0x00000000      0x1c6 ./Drivers/TPL3-FW-GPIO.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-INIC.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-INIC.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-INIC.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-INIC.o
+ .group         0x00000000        0x8 ./Drivers/TPL3-FW-INIC.o
+ .text          0x00000000        0x0 ./Drivers/TPL3-FW-INIC.o
+ .data          0x00000000        0x0 ./Drivers/TPL3-FW-INIC.o
+ .bss           0x00000000        0x0 ./Drivers/TPL3-FW-INIC.o
+ .text.Inicializar
+                0x00000000       0x14 ./Drivers/TPL3-FW-INIC.o
+ .text.InicSysTick
+                0x00000000       0x3c ./Drivers/TPL3-FW-INIC.o
+ .rodata        0x00000000       0x74 ./Drivers/TPL3-FW-INIC.o
+ .text.InitExpansion
+                0x00000000      0x10c ./Drivers/TPL3-FW-INIC.o
+ .debug_macro   0x00000000      0x874 ./Drivers/TPL3-FW-INIC.o
+ .debug_macro   0x00000000       0xfa ./Drivers/TPL3-FW-INIC.o
+ .debug_macro   0x00000000       0xd6 ./Drivers/TPL3-FW-INIC.o
+ .debug_macro   0x00000000      0x1c6 ./Drivers/TPL3-FW-INIC.o
+ .debug_macro   0x00000000       0x2e ./Drivers/TPL3-FW-INIC.o
+ .group         0x00000000        0x8 ./Drivers/cr_startup_lpc176x.o
+ .group         0x00000000        0x8 ./Drivers/cr_startup_lpc176x.o
+ .group         0x00000000        0x8 ./Drivers/cr_startup_lpc176x.o
+ .group         0x00000000        0x8 ./Drivers/cr_startup_lpc176x.o
+ .text          0x00000000        0x0 ./Drivers/cr_startup_lpc176x.o
+ .data          0x00000000        0x0 ./Drivers/cr_startup_lpc176x.o
+ .bss           0x00000000        0x0 ./Drivers/cr_startup_lpc176x.o
+ .debug_macro   0x00000000      0x874 ./Drivers/cr_startup_lpc176x.o
+ .debug_macro   0x00000000       0xfa ./Drivers/cr_startup_lpc176x.o
+ .debug_macro   0x00000000       0xd6 ./Drivers/cr_startup_lpc176x.o
+ .debug_macro   0x00000000      0x1c6 ./Drivers/cr_startup_lpc176x.o
+ .group         0x00000000        0x8 ./Drivers/crp.o
+ .group         0x00000000        0x8 ./Drivers/crp.o
+ .text          0x00000000        0x0 ./Drivers/crp.o
+ .data          0x00000000        0x0 ./Drivers/crp.o
+ .bss           0x00000000        0x0 ./Drivers/crp.o
+ .debug_macro   0x00000000      0x874 ./Drivers/crp.o
+ .group         0x00000000        0x8 ./Drivers/driver_teclado.o
+ .group         0x00000000        0x8 ./Drivers/driver_teclado.o
+ .group         0x00000000        0x8 ./Drivers/driver_teclado.o
+ .group         0x00000000        0x8 ./Drivers/driver_teclado.o
+ .group         0x00000000        0x8 ./Drivers/driver_teclado.o
+ .text          0x00000000        0x0 ./Drivers/driver_teclado.o
+ .data          0x00000000        0x0 ./Drivers/driver_teclado.o
+ .bss           0x00000000        0x0 ./Drivers/driver_teclado.o
+ .debug_macro   0x00000000      0x874 ./Drivers/driver_teclado.o
+ .debug_macro   0x00000000       0xfa ./Drivers/driver_teclado.o
+ .debug_macro   0x00000000       0xd6 ./Drivers/driver_teclado.o
+ .debug_macro   0x00000000      0x1c6 ./Drivers/driver_teclado.o
+ .debug_macro   0x00000000       0x2e ./Drivers/driver_teclado.o
+ .group         0x00000000        0x8 ./Aplicacion/TPL3-Aplicacion.o
+ .group         0x00000000        0x8 ./Aplicacion/TPL3-Aplicacion.o
+ .group         0x00000000        0x8 ./Aplicacion/TPL3-Aplicacion.o
+ .group         0x00000000        0x8 ./Aplicacion/TPL3-Aplicacion.o
+ .group         0x00000000        0x8 ./Aplicacion/TPL3-Aplicacion.o
+ .group         0x00000000        0x8 ./Aplicacion/TPL3-Aplicacion.o
+ .text          0x00000000        0x0 ./Aplicacion/TPL3-Aplicacion.o
+ .data          0x00000000        0x0 ./Aplicacion/TPL3-Aplicacion.o
+ .bss           0x00000000        0x0 ./Aplicacion/TPL3-Aplicacion.o
+ .debug_macro   0x00000000      0x874 ./Aplicacion/TPL3-Aplicacion.o
+ .debug_macro   0x00000000       0x34 ./Aplicacion/TPL3-Aplicacion.o
+ .debug_macro   0x00000000       0xfa ./Aplicacion/TPL3-Aplicacion.o
+ .debug_macro   0x00000000       0xd6 ./Aplicacion/TPL3-Aplicacion.o
+ .debug_macro   0x00000000      0x1c6 ./Aplicacion/TPL3-Aplicacion.o
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./Primitivas/TPL3-PR-DisplayTeclado.o
+LOAD ./Drivers/Oscilador.o
+LOAD ./Drivers/TPL3-FW-CONFIG.o
+LOAD ./Drivers/TPL3-FW-Expansion_2.o
+LOAD ./Drivers/TPL3-FW-GPIO.o
+LOAD ./Drivers/TPL3-FW-INIC.o
+LOAD ./Drivers/cr_startup_lpc176x.o
+LOAD ./Drivers/crp.o
+LOAD ./Drivers/driver_teclado.o
+LOAD ./Aplicacion/TPL3-Aplicacion.o
+START GROUP
+LOAD /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a
+LOAD /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libcr_eabihelpers.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x00080000                __top_Flash = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+                0x20084000                __top_RAM2 = 0x20084000
+
+.text           0x00000000      0x628
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./Drivers/cr_startup_lpc176x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x628 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x1c SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x628 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x1000001c ADDR (.bss)
+                0x000000e8        0x4 LONG 0x14 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x138 ./Drivers/cr_startup_lpc176x.o
+                0x000000f4                data_init
+                0x00000138                bss_init
+                0x00000170                ResetISR
+                0x000001e4                NMI_Handler
+                0x000001ec                HardFault_Handler
+                0x000001f4                MemManage_Handler
+                0x000001fc                BusFault_Handler
+                0x00000204                UsageFault_Handler
+                0x0000020c                SVC_Handler
+                0x00000214                DebugMon_Handler
+                0x0000021c                PendSV_Handler
+                0x00000224                TIMER2_IRQHandler
+                0x00000224                RIT_IRQHandler
+                0x00000224                I2C0_IRQHandler
+                0x00000224                USBActivity_IRQHandler
+                0x00000224                PWM1_IRQHandler
+                0x00000224                I2C1_IRQHandler
+                0x00000224                EINT2_IRQHandler
+                0x00000224                UART1_IRQHandler
+                0x00000224                EINT3_IRQHandler
+                0x00000224                CANActivity_IRQHandler
+                0x00000224                TIMER3_IRQHandler
+                0x00000224                UART0_IRQHandler
+                0x00000224                IntDefaultHandler
+                0x00000224                PLL0_IRQHandler
+                0x00000224                CAN_IRQHandler
+                0x00000224                PLL1_IRQHandler
+                0x00000224                SSP0_IRQHandler
+                0x00000224                I2S_IRQHandler
+                0x00000224                I2C2_IRQHandler
+                0x00000224                RTC_IRQHandler
+                0x00000224                TIMER0_IRQHandler
+                0x00000224                SPI_IRQHandler
+                0x00000224                EINT1_IRQHandler
+                0x00000224                TIMER1_IRQHandler
+                0x00000224                UART2_IRQHandler
+                0x00000224                ADC_IRQHandler
+                0x00000224                SSP1_IRQHandler
+                0x00000224                USB_IRQHandler
+                0x00000224                BOD_IRQHandler
+                0x00000224                WDT_IRQHandler
+                0x00000224                QEI_IRQHandler
+                0x00000224                EINT0_IRQHandler
+                0x00000224                DMA_IRQHandler
+                0x00000224                UART3_IRQHandler
+                0x00000224                MCPWM_IRQHandler
+                0x00000224                ENET_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x0000022c       0xd0 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./Drivers/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.barridoDisplay
+                0x00000300       0xa4 ./Drivers/TPL3-FW-Expansion_2.o
+                0x00000300                barridoDisplay
+ .text.barridoTeclado
+                0x000003a4        0xc ./Drivers/TPL3-FW-Expansion_2.o
+                0x000003a4                barridoTeclado
+ .text.SysTick_Handler
+                0x000003b0       0x30 ./Drivers/TPL3-FW-Expansion_2.o
+                0x000003b0                SysTick_Handler
+ .text.SetPIN   0x000003e0       0x74 ./Drivers/TPL3-FW-GPIO.o
+                0x000003e0                SetPIN
+ .text.GetPIN   0x00000454       0x4c ./Drivers/TPL3-FW-GPIO.o
+                0x00000454                GetPIN
+ .text.lecturaTecladoHW
+                0x000004a0       0x4c ./Drivers/driver_teclado.o
+                0x000004a0                lecturaTecladoHW
+ .text.lecturaTecladoSW
+                0x000004ec       0x88 ./Drivers/driver_teclado.o
+                0x000004ec                lecturaTecladoSW
+ .text.main     0x00000574       0xb0 ./Aplicacion/TPL3-Aplicacion.o
+                0x00000574                main
+ .text.__weak_main
+                0x00000624        0x4 /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+                0x00000624                __main
+                0x00000624                __weak_main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x00000628                . = ALIGN (0x4)
+
+.glue_7         0x00000628        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000628        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000628        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000628        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00000628        0x0
+ .iplt          0x00000000        0x0 ./Primitivas/TPL3-PR-DisplayTeclado.o
+
+.rel.dyn        0x00000628        0x0
+ .rel.iplt      0x00000000        0x0 ./Primitivas/TPL3-PR-DisplayTeclado.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000628                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000628                __exidx_end = .
+                0x00000628                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00000628
+ FILL mask 0xff
+                0x2007c000                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                0x2007c000                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000       0x1c load address 0x00000628
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data.tiempoBase.3681
+                0x10000000        0x1 ./Drivers/TPL3-FW-Expansion_2.o
+ *fill*         0x10000001        0x3 
+ .data.auxDisplayPuertos
+                0x10000004        0x8 ./Drivers/TPL3-FW-INIC.o
+                0x10000004                auxDisplayPuertos
+ .data.auxDisplayPines
+                0x1000000c        0x8 ./Drivers/TPL3-FW-INIC.o
+                0x1000000c                auxDisplayPines
+ .data.auxBotonesPuertos
+                0x10000014        0x4 ./Drivers/driver_teclado.o
+                0x10000014                auxBotonesPuertos
+ .data.auxBotonesPines
+                0x10000018        0x4 ./Drivers/driver_teclado.o
+                0x10000018                auxBotonesPines
+                0x1000001c                . = ALIGN (0x4)
+                0x1000001c                _edata = .
+
+.igot.plt       0x1000001c        0x0 load address 0x00000644
+ .igot.plt      0x00000000        0x0 ./Primitivas/TPL3-PR-DisplayTeclado.o
+
+.bss_RAM2       0x2007c000        0x0
+                0x2007c000                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x2007c000                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x1000001c       0x14
+                0x1000001c                _bss = .
+ *(.bss*)
+ .bss.digitoEncendido.3667
+                0x1000001c        0x1 ./Drivers/TPL3-FW-Expansion_2.o
+ .bss.teclaActual.3674
+                0x1000001d        0x1 ./Drivers/driver_teclado.o
+ .bss.estadosEstables.3672
+                0x1000001e        0x1 ./Drivers/driver_teclado.o
+ .bss.teclaAnterior.3673
+                0x1000001f        0x1 ./Drivers/driver_teclado.o
+ *(COMMON)
+ COMMON         0x10000020        0x7 ./Drivers/TPL3-FW-Expansion_2.o
+                0x10000020                bufferSegmentos
+ COMMON         0x10000027        0x1 ./Drivers/driver_teclado.o
+                0x10000027                bufferTecla
+ COMMON         0x10000028        0x8 ./Aplicacion/TPL3-Aplicacion.o
+                0x10000028                estadoMaquina
+                0x10000029                estadoLed
+                0x1000002c                bufferValor
+                0x10000030                . = ALIGN (0x4)
+                0x10000030                _ebss = .
+                0x10000030                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x10000030        0x0
+                0x10000030                _noinit = .
+ *(.noinit*)
+                0x10000030                . = ALIGN (0x4)
+                0x10000030                _end_noinit = .
+                0x10000030                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                0xefff74c6                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+OUTPUT(TPL3.axf elf32-littlearm)
+
+.debug_info     0x00000000      0x816
+ .debug_info    0x00000000      0x149 ./Drivers/TPL3-FW-Expansion_2.o
+ .debug_info    0x00000149      0x125 ./Drivers/TPL3-FW-GPIO.o
+ .debug_info    0x0000026e      0x139 ./Drivers/TPL3-FW-INIC.o
+ .debug_info    0x000003a7      0x247 ./Drivers/cr_startup_lpc176x.o
+ .debug_info    0x000005ee       0x3f ./Drivers/crp.o
+ .debug_info    0x0000062d      0x105 ./Drivers/driver_teclado.o
+ .debug_info    0x00000732       0xe4 ./Aplicacion/TPL3-Aplicacion.o
+
+.debug_abbrev   0x00000000      0x474
+ .debug_abbrev  0x00000000       0xc1 ./Drivers/TPL3-FW-Expansion_2.o
+ .debug_abbrev  0x000000c1       0x88 ./Drivers/TPL3-FW-GPIO.o
+ .debug_abbrev  0x00000149       0xcc ./Drivers/TPL3-FW-INIC.o
+ .debug_abbrev  0x00000215       0xf5 ./Drivers/cr_startup_lpc176x.o
+ .debug_abbrev  0x0000030a       0x36 ./Drivers/crp.o
+ .debug_abbrev  0x00000340       0xa6 ./Drivers/driver_teclado.o
+ .debug_abbrev  0x000003e6       0x8e ./Aplicacion/TPL3-Aplicacion.o
+
+.debug_aranges  0x00000000      0x168
+ .debug_aranges
+                0x00000000       0x30 ./Drivers/TPL3-FW-Expansion_2.o
+ .debug_aranges
+                0x00000030       0x30 ./Drivers/TPL3-FW-GPIO.o
+ .debug_aranges
+                0x00000060       0x30 ./Drivers/TPL3-FW-INIC.o
+ .debug_aranges
+                0x00000090       0x78 ./Drivers/cr_startup_lpc176x.o
+ .debug_aranges
+                0x00000108       0x18 ./Drivers/crp.o
+ .debug_aranges
+                0x00000120       0x28 ./Drivers/driver_teclado.o
+ .debug_aranges
+                0x00000148       0x20 ./Aplicacion/TPL3-Aplicacion.o
+
+.debug_ranges   0x00000000       0xf0
+ .debug_ranges  0x00000000       0x20 ./Drivers/TPL3-FW-Expansion_2.o
+ .debug_ranges  0x00000020       0x20 ./Drivers/TPL3-FW-GPIO.o
+ .debug_ranges  0x00000040       0x20 ./Drivers/TPL3-FW-INIC.o
+ .debug_ranges  0x00000060       0x68 ./Drivers/cr_startup_lpc176x.o
+ .debug_ranges  0x000000c8       0x18 ./Drivers/driver_teclado.o
+ .debug_ranges  0x000000e0       0x10 ./Aplicacion/TPL3-Aplicacion.o
+
+.debug_macro    0x00000000      0x24b
+ .debug_macro   0x00000000       0x35 ./Drivers/TPL3-FW-Expansion_2.o
+ .debug_macro   0x00000035       0x2c ./Drivers/TPL3-FW-GPIO.o
+ .debug_macro   0x00000061       0x39 ./Drivers/TPL3-FW-INIC.o
+ .debug_macro   0x0000009a       0x38 ./Drivers/cr_startup_lpc176x.o
+ .debug_macro   0x000000d2       0x1a ./Drivers/crp.o
+ .debug_macro   0x000000ec       0x34 ./Drivers/crp.o
+ .debug_macro   0x00000120       0x35 ./Drivers/driver_teclado.o
+ .debug_macro   0x00000155       0x74 ./Aplicacion/TPL3-Aplicacion.o
+ .debug_macro   0x000001c9       0x82 ./Aplicacion/TPL3-Aplicacion.o
+
+.debug_line     0x00000000      0x763
+ .debug_line    0x00000000      0x112 ./Drivers/TPL3-FW-Expansion_2.o
+ .debug_line    0x00000112       0xec ./Drivers/TPL3-FW-GPIO.o
+ .debug_line    0x000001fe      0x109 ./Drivers/TPL3-FW-INIC.o
+ .debug_line    0x00000307      0x144 ./Drivers/cr_startup_lpc176x.o
+ .debug_line    0x0000044b       0x80 ./Drivers/crp.o
+ .debug_line    0x000004cb       0xfb ./Drivers/driver_teclado.o
+ .debug_line    0x000005c6      0x19d ./Aplicacion/TPL3-Aplicacion.o
+
+.debug_str      0x00000000     0x3b32
+ .debug_str     0x00000000     0x3258 ./Drivers/TPL3-FW-Expansion_2.o
+                               0x3286 (size before relaxing)
+ .debug_str     0x00003258       0x5b ./Drivers/TPL3-FW-GPIO.o
+                               0x3178 (size before relaxing)
+ .debug_str     0x000032b3       0x4e ./Drivers/TPL3-FW-INIC.o
+                               0x321f (size before relaxing)
+ .debug_str     0x00003301      0x1b3 ./Drivers/cr_startup_lpc176x.o
+                               0x32d7 (size before relaxing)
+ .debug_str     0x000034b4       0xed ./Drivers/crp.o
+                               0x255b (size before relaxing)
+ .debug_str     0x000035a1       0x85 ./Drivers/driver_teclado.o
+                               0x3231 (size before relaxing)
+ .debug_str     0x00003626      0x50c ./Aplicacion/TPL3-Aplicacion.o
+                               0x370a (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./Drivers/TPL3-FW-Expansion_2.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./Drivers/TPL3-FW-GPIO.o
+ .comment       0x00000000       0x71 ./Drivers/TPL3-FW-INIC.o
+ .comment       0x00000000       0x71 ./Drivers/cr_startup_lpc176x.o
+ .comment       0x00000000       0x71 ./Drivers/crp.o
+ .comment       0x00000000       0x71 ./Drivers/driver_teclado.o
+ .comment       0x00000000       0x71 ./Aplicacion/TPL3-Aplicacion.o
+ .comment       0x00000000       0x71 /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./Drivers/TPL3-FW-Expansion_2.o
+ .ARM.attributes
+                0x00000033       0x33 ./Drivers/TPL3-FW-GPIO.o
+ .ARM.attributes
+                0x00000066       0x33 ./Drivers/TPL3-FW-INIC.o
+ .ARM.attributes
+                0x00000099       0x33 ./Drivers/cr_startup_lpc176x.o
+ .ARM.attributes
+                0x000000cc       0x33 ./Drivers/crp.o
+ .ARM.attributes
+                0x000000ff       0x33 ./Drivers/driver_teclado.o
+ .ARM.attributes
+                0x00000132       0x33 ./Aplicacion/TPL3-Aplicacion.o
+ .ARM.attributes
+                0x00000165       0x33 /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x344
+ .debug_frame   0x00000000       0x6c ./Drivers/TPL3-FW-Expansion_2.o
+ .debug_frame   0x0000006c       0x88 ./Drivers/TPL3-FW-GPIO.o
+ .debug_frame   0x000000f4       0x78 ./Drivers/TPL3-FW-INIC.o
+ .debug_frame   0x0000016c      0x158 ./Drivers/cr_startup_lpc176x.o
+ .debug_frame   0x000002c4       0x50 ./Drivers/driver_teclado.o
+ .debug_frame   0x00000314       0x30 ./Aplicacion/TPL3-Aplicacion.o

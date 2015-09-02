@@ -1,0 +1,163 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .data          0x00000000        0x0 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .bss           0x00000000        0x0 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .data.Tabla_Digitos_BCD_7seg
+                0x00000000        0xc ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .text.Display7seg
+                0x00000000       0x14 ./Primitivas/TPL3-PR-DisplayTeclado.o
+ .text.Tecla    0x00000000        0xc ./Primitivas/TPL3-PR-DisplayTeclado.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./Primitivas/TPL3-PR-DisplayTeclado.o
+START GROUP
+LOAD c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+
+.text           0x00000000       0x28
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                __section_table_start = .
+                0x00000000                __data_section_table = .
+                0x00000000        0x4 LONG 0x28 LOADADDR (.data)
+                0x00000004        0x4 LONG 0x10000000 ADDR (.data)
+                0x00000008        0x4 LONG 0x0 SIZEOF (.data)
+                0x0000000c        0x4 LONG 0x28 LOADADDR (.data_RAM2)
+                0x00000010        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x00000014        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x00000018                __data_section_table_end = .
+                0x00000018                __bss_section_table = .
+                0x00000018        0x4 LONG 0x10000000 ADDR (.bss)
+                0x0000001c        0x4 LONG 0x0 SIZEOF (.bss)
+                0x00000020        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x00000024        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x00000028                __bss_section_table_end = .
+                0x00000028                __section_table_end = .
+ *(.after_vectors*)
+ *(.text*)
+ *(.rodata .rodata.*)
+                0x00000028                . = ALIGN (0x4)
+
+.glue_7         0x00000028        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000028        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000028        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000028        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000028                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000028                __exidx_end = .
+                0x00000028                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00000028
+ FILL mask 0xff
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x00000028
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+
+.bss_RAM2       0x2007c000        0x0
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.bss            0x10000000        0x0
+                0x10000000                _bss = .
+ *(.bss*)
+ *(COMMON)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _ebss = .
+                0x10000000                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x10000000        0x0
+                0x10000000                _noinit = .
+ *(.noinit*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_noinit = .
+                0x10000000                PROVIDE (_pvHeapStart, .)
+                0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
+OUTPUT(TPL_Display_y_Teclado.axf elf32-littlearm)
+
+.debug_info     0x00000000       0xbc
+ .debug_info    0x00000000       0xbc ./Primitivas/TPL3-PR-DisplayTeclado.o
+
+.debug_abbrev   0x00000000       0x90
+ .debug_abbrev  0x00000000       0x90 ./Primitivas/TPL3-PR-DisplayTeclado.o
+
+.debug_loc      0x00000000       0x64
+ .debug_loc     0x00000000       0x64 ./Primitivas/TPL3-PR-DisplayTeclado.o
+
+.debug_aranges  0x00000000       0x28
+ .debug_aranges
+                0x00000000       0x28 ./Primitivas/TPL3-PR-DisplayTeclado.o
+
+.debug_ranges   0x00000000       0x18
+ .debug_ranges  0x00000000       0x18 ./Primitivas/TPL3-PR-DisplayTeclado.o
+
+.debug_line     0x00000000       0xee
+ .debug_line    0x00000000       0xee ./Primitivas/TPL3-PR-DisplayTeclado.o
+
+.debug_macinfo  0x00000000     0x305d
+ .debug_macinfo
+                0x00000000     0x305d ./Primitivas/TPL3-PR-DisplayTeclado.o
+
+.debug_str      0x00000000      0x126
+ .debug_str     0x00000000      0x126 ./Primitivas/TPL3-PR-DisplayTeclado.o
+                                0x133 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./Primitivas/TPL3-PR-DisplayTeclado.o
+                                 0x71 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./Primitivas/TPL3-PR-DisplayTeclado.o
+
+.debug_frame    0x00000000       0x44
+ .debug_frame   0x00000000       0x44 ./Primitivas/TPL3-PR-DisplayTeclado.o

@@ -1,0 +1,744 @@
+Archive member included because of file (symbol)
+
+/usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+                              ./src/FW_Inicializaciones/cr_startup_lpc176x.o (__main)
+
+Allocating common symbols
+Common symbol       size              file
+
+cantidadColaLCD     0x4               ./src/main.o
+inxInLCD            0x4               ./src/main.o
+inxOutLCD           0x4               ./src/main.o
+bufferLCD           0x64              ./src/main.o
+msgDisplay          0x6               ./src/main.o
+DemoraLCD           0x4               ./src/main.o
+entero_ascii        0x6               ./src/FW_Drivers/FW_LCD.o
+BufferEntradas      0x1               ./src/main.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .text          0x00000000        0x0 ./src/Primitivas/PR_7Seg.o
+ .data          0x00000000        0x0 ./src/Primitivas/PR_7Seg.o
+ .bss           0x00000000        0x0 ./src/Primitivas/PR_7Seg.o
+ .data.Tabla_Digitos_BCD_7seg
+                0x00000000        0xa ./src/Primitivas/PR_7Seg.o
+ .text.Display  0x00000000       0x5c ./src/Primitivas/PR_7Seg.o
+ .debug_info    0x00000000       0xcd ./src/Primitivas/PR_7Seg.o
+ .debug_abbrev  0x00000000       0xa2 ./src/Primitivas/PR_7Seg.o
+ .debug_aranges
+                0x00000000       0x20 ./src/Primitivas/PR_7Seg.o
+ .debug_ranges  0x00000000       0x10 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x63 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000      0x86e ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000      0x397 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x5e ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000      0x160 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x8e ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0xfa ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x22 ./src/Primitivas/PR_7Seg.o
+ .debug_line    0x00000000      0x12b ./src/Primitivas/PR_7Seg.o
+ .debug_str     0x00000000     0x3d17 ./src/Primitivas/PR_7Seg.o
+ .comment       0x00000000       0x71 ./src/Primitivas/PR_7Seg.o
+ .debug_frame   0x00000000       0x38 ./src/Primitivas/PR_7Seg.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .text          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .data          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .bss           0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000      0x86e ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000      0x397 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000      0x160 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .text          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .data          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .bss           0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000      0x86e ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000      0x397 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000      0x160 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .text          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .data          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .bss           0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000      0x86e ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000      0x397 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000      0x160 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .text          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .data          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .bss           0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00000000      0x86e ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00000000      0x397 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .text          0x00000000        0x0 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .data          0x00000000        0x0 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .bss           0x00000000        0x0 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/Entradas_FW.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/Entradas_FW.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000      0x86e ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000      0x397 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000      0x160 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0x22 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/FW_7Seg.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/FW_7Seg.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000      0x86e ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000      0x397 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000      0x160 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x22 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_GPIO.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/FW_GPIO.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/FW_GPIO.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000      0x86e ./src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000      0x397 ./src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/FW_LCD.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/FW_LCD.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/FW_LCD.o
+ .text.Conversor
+                0x00000000       0xd8 ./src/FW_Drivers/FW_LCD.o
+ .text.DisplayInt_lcd
+                0x00000000       0x84 ./src/FW_Drivers/FW_LCD.o
+ .text.Display_lcd
+                0x00000000       0x58 ./src/FW_Drivers/FW_LCD.o
+ .text.WString  0x00000000       0x28 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000      0x86e ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000      0x397 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000      0x160 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0xa6 ./src/FW_Drivers/FW_LCD.o
+ COMMON         0x00000000        0x6 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/FW_Systick.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/FW_Systick.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000      0x86e ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000      0x397 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000      0x160 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x22 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .text          0x00000000        0x0 ./src/Aplicacion.o
+ .data          0x00000000        0x0 ./src/Aplicacion.o
+ .bss           0x00000000        0x0 ./src/Aplicacion.o
+ .text.cuentoPulsos
+                0x00000000      0x120 ./src/Aplicacion.o
+ .bss.antKey4.3693
+                0x00000000        0x1 ./src/Aplicacion.o
+ .bss.cont.3695
+                0x00000000        0x4 ./src/Aplicacion.o
+ .bss.antKey3.3694
+                0x00000000        0x1 ./src/Aplicacion.o
+ .debug_info    0x00000000       0xae ./src/Aplicacion.o
+ .debug_abbrev  0x00000000       0x70 ./src/Aplicacion.o
+ .debug_aranges
+                0x00000000       0x20 ./src/Aplicacion.o
+ .debug_ranges  0x00000000       0x10 ./src/Aplicacion.o
+ .debug_macro   0x00000000       0x63 ./src/Aplicacion.o
+ .debug_macro   0x00000000      0x86e ./src/Aplicacion.o
+ .debug_macro   0x00000000      0x397 ./src/Aplicacion.o
+ .debug_macro   0x00000000       0x5e ./src/Aplicacion.o
+ .debug_macro   0x00000000      0x160 ./src/Aplicacion.o
+ .debug_macro   0x00000000       0x8e ./src/Aplicacion.o
+ .debug_macro   0x00000000       0xfa ./src/Aplicacion.o
+ .debug_macro   0x00000000       0x22 ./src/Aplicacion.o
+ .debug_line    0x00000000      0x13a ./src/Aplicacion.o
+ .debug_str     0x00000000     0x3d0d ./src/Aplicacion.o
+ .comment       0x00000000       0x71 ./src/Aplicacion.o
+ .debug_frame   0x00000000       0x2c ./src/Aplicacion.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .debug_macro   0x00000000      0x86e ./src/crp.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .debug_macro   0x00000000      0x86e ./src/main.o
+ .debug_macro   0x00000000       0x34 ./src/main.o
+ .debug_macro   0x00000000      0x397 ./src/main.o
+ .debug_macro   0x00000000       0x5e ./src/main.o
+ .debug_macro   0x00000000      0x160 ./src/main.o
+ .debug_macro   0x00000000       0x8e ./src/main.o
+ .debug_macro   0x00000000       0xfa ./src/main.o
+ .debug_macro   0x00000000       0x22 ./src/main.o
+ .debug_macro   0x00000000       0xac ./src/main.o
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/Primitivas/PR_7Seg.o
+LOAD ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+LOAD ./src/FW_Inicializaciones/FW_InitExpansion2.o
+LOAD ./src/FW_Inicializaciones/FW_InitKit_principal.o
+LOAD ./src/FW_Inicializaciones/FW_InitOscilador.o
+LOAD ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+LOAD ./src/FW_Drivers/Entradas_FW.o
+LOAD ./src/FW_Drivers/FW_7Seg.o
+LOAD ./src/FW_Drivers/FW_GPIO.o
+LOAD ./src/FW_Drivers/FW_LCD.o
+LOAD ./src/FW_Drivers/FW_Systick.o
+LOAD ./src/Aplicacion.o
+LOAD ./src/crp.o
+LOAD ./src/main.o
+START GROUP
+LOAD /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a
+LOAD /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libcr_eabihelpers.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x00080000                __top_Flash = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+                0x20084000                __top_RAM2 = 0x20084000
+
+.text           0x00000000     0x16a0
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x16a0 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x0 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x16a0 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000000 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x88 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x140 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+                0x000000f4                data_init
+                0x00000138                bss_init
+                0x00000170                ResetISR
+                0x000001e4                NMI_Handler
+                0x000001ec                HardFault_Handler
+                0x000001f4                MemManage_Handler
+                0x000001fc                BusFault_Handler
+                0x00000204                UsageFault_Handler
+                0x0000020c                SVC_Handler
+                0x00000214                DebugMon_Handler
+                0x0000021c                PendSV_Handler
+                0x0000022c                TIMER2_IRQHandler
+                0x0000022c                RIT_IRQHandler
+                0x0000022c                I2C0_IRQHandler
+                0x0000022c                USBActivity_IRQHandler
+                0x0000022c                PWM1_IRQHandler
+                0x0000022c                I2C1_IRQHandler
+                0x0000022c                EINT2_IRQHandler
+                0x0000022c                UART1_IRQHandler
+                0x0000022c                EINT3_IRQHandler
+                0x0000022c                CANActivity_IRQHandler
+                0x0000022c                TIMER3_IRQHandler
+                0x0000022c                UART0_IRQHandler
+                0x0000022c                IntDefaultHandler
+                0x0000022c                PLL0_IRQHandler
+                0x0000022c                CAN_IRQHandler
+                0x0000022c                PLL1_IRQHandler
+                0x0000022c                SSP0_IRQHandler
+                0x0000022c                I2S_IRQHandler
+                0x0000022c                I2C2_IRQHandler
+                0x0000022c                RTC_IRQHandler
+                0x0000022c                TIMER0_IRQHandler
+                0x0000022c                SPI_IRQHandler
+                0x0000022c                EINT1_IRQHandler
+                0x0000022c                TIMER1_IRQHandler
+                0x0000022c                UART2_IRQHandler
+                0x0000022c                ADC_IRQHandler
+                0x0000022c                SSP1_IRQHandler
+                0x0000022c                USB_IRQHandler
+                0x0000022c                BOD_IRQHandler
+                0x0000022c                WDT_IRQHandler
+                0x0000022c                QEI_IRQHandler
+                0x0000022c                EINT0_IRQHandler
+                0x0000022c                DMA_IRQHandler
+                0x0000022c                UART3_IRQHandler
+                0x0000022c                MCPWM_IRQHandler
+                0x0000022c                ENET_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000234       0xc8 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.Inicializar_Teclado
+                0x00000300       0x88 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+                0x00000300                Inicializar_Teclado
+ .text.Inicializar_Relay
+                0x00000388       0x74 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+                0x00000388                Inicializar_Relay
+ .text.Inicializar_RGB
+                0x000003fc       0x44 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+                0x000003fc                Inicializar_RGB
+ .text.Inicializar_Display7s
+                0x00000440      0x120 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+                0x00000440                Inicializar_Display7s
+ .text.InicSysTick
+                0x00000560       0x44 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+                0x00000560                InicSysTick
+ .text.InicializarKit
+                0x000005a4       0x24 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+                0x000005a4                InicializarKit
+ .text.InicPLL  0x000005c8      0x140 ./src/FW_Inicializaciones/FW_InitOscilador.o
+                0x000005c8                InicPLL
+ .text.Debounce
+                0x00000708       0xd4 ./src/FW_Drivers/Entradas_FW.o
+                0x00000708                Debounce
+ .text.BarridoDisplay
+                0x000007dc      0x19c ./src/FW_Drivers/FW_7Seg.o
+                0x000007dc                BarridoDisplay
+ .text.SetPINSEL
+                0x00000978       0x88 ./src/FW_Drivers/FW_GPIO.o
+                0x00000978                SetPINSEL
+ .text.SetPINMODE
+                0x00000a00       0x7c ./src/FW_Drivers/FW_GPIO.o
+                0x00000a00                SetPINMODE
+ .text.SetMODE_OD
+                0x00000a7c       0x60 ./src/FW_Drivers/FW_GPIO.o
+                0x00000a7c                SetMODE_OD
+ .text.SetDIR   0x00000adc       0x70 ./src/FW_Drivers/FW_GPIO.o
+                0x00000adc                SetDIR
+ .text.SetPIN   0x00000b4c       0x74 ./src/FW_Drivers/FW_GPIO.o
+                0x00000b4c                SetPIN
+ .text.GetPIN   0x00000bc0       0x4c ./src/FW_Drivers/FW_GPIO.o
+                0x00000bc0                GetPIN
+ .text.LCDWaitLong
+                0x00000c0c       0x40 ./src/FW_Drivers/FW_LCD.o
+                0x00000c0c                LCDWaitLong
+ .text.LCDWaitShort
+                0x00000c4c       0x40 ./src/FW_Drivers/FW_LCD.o
+                0x00000c4c                LCDWaitShort
+ .text.LCDDelay
+                0x00000c8c       0x28 ./src/FW_Drivers/FW_LCD.o
+                0x00000c8c                LCDDelay
+ .text.LatchLcd
+                0x00000cb4       0x38 ./src/FW_Drivers/FW_LCD.o
+                0x00000cb4                LatchLcd
+ .text.ImprimeLCD
+                0x00000cec      0x4cc ./src/FW_Drivers/FW_LCD.o
+                0x00000cec                ImprimeLCD
+ .text.Push_BufferLCD
+                0x000011b8       0xf8 ./src/FW_Drivers/FW_LCD.o
+                0x000011b8                Push_BufferLCD
+ .text.Inic_PinesLCD
+                0x000012b0       0xf8 ./src/FW_Drivers/FW_LCD.o
+                0x000012b0                Inic_PinesLCD
+ .text.WComando8
+                0x000013a8       0xc8 ./src/FW_Drivers/FW_LCD.o
+                0x000013a8                WComando8
+ .text.WComando4
+                0x00001470       0x70 ./src/FW_Drivers/FW_LCD.o
+                0x00001470                WComando4
+ .text.WDato    0x000014e0       0xc8 ./src/FW_Drivers/FW_LCD.o
+                0x000014e0                WDato
+ .text.Inic_LCD
+                0x000015a8       0x80 ./src/FW_Drivers/FW_LCD.o
+                0x000015a8                Inic_LCD
+ .text.SysTick_Handler
+                0x00001628       0x28 ./src/FW_Drivers/FW_Systick.o
+                0x00001628                SysTick_Handler
+ .text.main     0x00001650       0x40 ./src/main.o
+                0x00001650                main
+ .text.__weak_main
+                0x00001690        0x4 /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+                0x00001690                __main
+                0x00001690                __weak_main
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata        0x00001694        0xb ./src/main.o
+                0x000016a0                . = ALIGN (0x4)
+ *fill*         0x0000169f        0x1 ff
+
+.glue_7         0x000016a0        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x000016a0        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x000016a0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000016a0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000016a0        0x0
+ .iplt          0x00000000        0x0 ./src/Primitivas/PR_7Seg.o
+
+.rel.dyn        0x000016a0        0x0
+ .rel.iplt      0x00000000        0x0 ./src/Primitivas/PR_7Seg.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000016a0                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000016a0                __exidx_end = .
+                0x000016a0                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x000016a0
+ FILL mask 0xff
+                0x2007c000                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                0x2007c000                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x000016a0
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+
+.igot.plt       0x10000000        0x0 load address 0x000016a0
+ .igot.plt      0x00000000        0x0 ./src/Primitivas/PR_7Seg.o
+
+.bss_RAM2       0x2007c000        0x0
+                0x2007c000                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x2007c000                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x10000000       0x88
+                0x10000000                _bss = .
+ *(.bss*)
+ .bss.ContadorEstados.3695
+                0x10000000        0x2 ./src/FW_Drivers/Entradas_FW.o
+ .bss.digito.3696
+                0x10000002        0x1 ./src/FW_Drivers/FW_7Seg.o
+ .bss.estado.3762
+                0x10000003        0x1 ./src/FW_Drivers/FW_LCD.o
+ .bss.ptrLecturaLCD
+                0x10000004        0x1 ./src/main.o
+                0x10000004                ptrLecturaLCD
+ .bss.ptrEscrituraLCD
+                0x10000005        0x1 ./src/main.o
+                0x10000005                ptrEscrituraLCD
+ *(COMMON)
+ *fill*         0x10000006        0x2 
+ COMMON         0x10000008       0x7d ./src/main.o
+                0x10000008                cantidadColaLCD
+                0x1000000c                inxInLCD
+                0x10000010                inxOutLCD
+                0x10000014                bufferLCD
+                0x10000078                msgDisplay
+                0x10000080                DemoraLCD
+                0x10000084                BufferEntradas
+                0x10000088                . = ALIGN (0x4)
+ *fill*         0x10000085        0x3 
+                0x10000088                _ebss = .
+                0x10000088                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x10000088        0x0
+                0x10000088                _noinit = .
+ *(.noinit*)
+                0x10000088                . = ALIGN (0x4)
+                0x10000088                _end_noinit = .
+                0x10000088                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                0xefff74c6                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+OUTPUT(pruebaLCD.axf elf32-littlearm)
+
+.debug_info     0x00000000      0xd4e
+ .debug_info    0x00000000       0x72 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_info    0x00000072       0x50 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_info    0x000000c2      0x13d ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_info    0x000001ff       0x5b ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_info    0x0000025a      0x24b ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_info    0x000004a5       0xb2 ./src/FW_Drivers/Entradas_FW.o
+ .debug_info    0x00000557       0x9a ./src/FW_Drivers/FW_7Seg.o
+ .debug_info    0x000005f1      0x1d5 ./src/FW_Drivers/FW_GPIO.o
+ .debug_info    0x000007c6      0x397 ./src/FW_Drivers/FW_LCD.o
+ .debug_info    0x00000b5d       0x67 ./src/FW_Drivers/FW_Systick.o
+ .debug_info    0x00000bc4       0x3f ./src/crp.o
+ .debug_info    0x00000c03      0x14b ./src/main.o
+
+.debug_abbrev   0x00000000      0x6be
+ .debug_abbrev  0x00000000       0x3a ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_abbrev  0x0000003a       0x3a ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_abbrev  0x00000074       0xf0 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_abbrev  0x00000164       0x47 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_abbrev  0x000001ab       0xf5 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_abbrev  0x000002a0       0x91 ./src/FW_Drivers/Entradas_FW.o
+ .debug_abbrev  0x00000331       0x7e ./src/FW_Drivers/FW_7Seg.o
+ .debug_abbrev  0x000003af       0x81 ./src/FW_Drivers/FW_GPIO.o
+ .debug_abbrev  0x00000430      0x16c ./src/FW_Drivers/FW_LCD.o
+ .debug_abbrev  0x0000059c       0x5d ./src/FW_Drivers/FW_Systick.o
+ .debug_abbrev  0x000005f9       0x36 ./src/crp.o
+ .debug_abbrev  0x0000062f       0x8f ./src/main.o
+
+.debug_aranges  0x00000000      0x288
+ .debug_aranges
+                0x00000000       0x30 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_aranges
+                0x00000030       0x20 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_aranges
+                0x00000050       0x28 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_aranges
+                0x00000078       0x20 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_aranges
+                0x00000098       0x80 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_aranges
+                0x00000118       0x20 ./src/FW_Drivers/Entradas_FW.o
+ .debug_aranges
+                0x00000138       0x20 ./src/FW_Drivers/FW_7Seg.o
+ .debug_aranges
+                0x00000158       0x48 ./src/FW_Drivers/FW_GPIO.o
+ .debug_aranges
+                0x000001a0       0x90 ./src/FW_Drivers/FW_LCD.o
+ .debug_aranges
+                0x00000230       0x20 ./src/FW_Drivers/FW_Systick.o
+ .debug_aranges
+                0x00000250       0x18 ./src/crp.o
+ .debug_aranges
+                0x00000268       0x20 ./src/main.o
+
+.debug_ranges   0x00000000      0x1c0
+ .debug_ranges  0x00000000       0x20 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_ranges  0x00000020       0x10 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_ranges  0x00000030       0x18 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_ranges  0x00000048       0x10 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_ranges  0x00000058       0x70 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_ranges  0x000000c8       0x10 ./src/FW_Drivers/Entradas_FW.o
+ .debug_ranges  0x000000d8       0x10 ./src/FW_Drivers/FW_7Seg.o
+ .debug_ranges  0x000000e8       0x38 ./src/FW_Drivers/FW_GPIO.o
+ .debug_ranges  0x00000120       0x80 ./src/FW_Drivers/FW_LCD.o
+ .debug_ranges  0x000001a0       0x10 ./src/FW_Drivers/FW_Systick.o
+ .debug_ranges  0x000001b0       0x10 ./src/main.o
+
+.debug_macro    0x00000000      0xdbd
+ .debug_macro   0x00000000       0x40 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000040       0x40 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000080       0x5c ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x000000dc       0xa6 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000182       0x23 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x000001a5       0x1d ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_macro   0x000001c2      0x86e ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_macro   0x00000a30       0x63 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000a93       0x63 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000af6       0x1a ./src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000b10       0x47 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000b57       0x6c ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000bc3       0xac ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000c6f       0x1a ./src/crp.o
+ .debug_macro   0x00000c89       0x34 ./src/crp.o
+ .debug_macro   0x00000cbd       0x7e ./src/main.o
+ .debug_macro   0x00000d3b       0x82 ./src/main.o
+
+.debug_line     0x00000000      0xf31
+ .debug_line    0x00000000      0x11c ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_line    0x0000011c       0xf9 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_line    0x00000215      0x117 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_line    0x0000032c      0x10a ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_line    0x00000436       0xe5 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_line    0x0000051b      0x147 ./src/FW_Drivers/Entradas_FW.o
+ .debug_line    0x00000662      0x12d ./src/FW_Drivers/FW_7Seg.o
+ .debug_line    0x0000078f      0x10e ./src/FW_Drivers/FW_GPIO.o
+ .debug_line    0x0000089d      0x320 ./src/FW_Drivers/FW_LCD.o
+ .debug_line    0x00000bbd      0x125 ./src/FW_Drivers/FW_Systick.o
+ .debug_line    0x00000ce2       0x7c ./src/crp.o
+ .debug_line    0x00000d5e      0x1d3 ./src/main.o
+
+.debug_str      0x00000000     0x4a66
+ .debug_str     0x00000000     0x3626 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+                               0x3654 (size before relaxing)
+ .debug_str     0x00003626       0x45 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+                               0x3635 (size before relaxing)
+ .debug_str     0x0000366b      0x6ab ./src/FW_Inicializaciones/FW_InitKit_principal.o
+                               0x3ce5 (size before relaxing)
+ .debug_str     0x00003d16       0x36 ./src/FW_Inicializaciones/FW_InitOscilador.o
+                               0x3695 (size before relaxing)
+ .debug_str     0x00003d4c      0x334 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+                               0x2637 (size before relaxing)
+ .debug_str     0x00004080      0x272 ./src/FW_Drivers/Entradas_FW.o
+                               0x3d18 (size before relaxing)
+ .debug_str     0x000042f2       0x46 ./src/FW_Drivers/FW_7Seg.o
+                               0x3d05 (size before relaxing)
+ .debug_str     0x00004338       0x6c ./src/FW_Drivers/FW_GPIO.o
+                               0x3226 (size before relaxing)
+ .debug_str     0x000043a4      0x13b ./src/FW_Drivers/FW_LCD.o
+                               0x38cb (size before relaxing)
+ .debug_str     0x000044df       0x1f ./src/FW_Drivers/FW_Systick.o
+                               0x3e73 (size before relaxing)
+ .debug_str     0x000044fe       0xe9 ./src/crp.o
+                               0x253e (size before relaxing)
+ .debug_str     0x000045e7      0x47f ./src/main.o
+                               0x43e9 (size before relaxing)
+
+.comment        0x00000000       0xe0
+ .comment       0x00000000       0x70 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .comment       0x00000000       0x71 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .comment       0x00000000       0x71 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .comment       0x00000070       0x70 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/FW_Drivers/Entradas_FW.o
+ .comment       0x00000000       0x71 ./src/FW_Drivers/FW_7Seg.o
+ .comment       0x00000000       0x71 ./src/FW_Drivers/FW_GPIO.o
+ .comment       0x00000000       0x71 ./src/FW_Drivers/FW_LCD.o
+ .comment       0x00000000       0x71 ./src/FW_Drivers/FW_Systick.o
+ .comment       0x00000000       0x71 ./src/crp.o
+ .comment       0x00000000       0x71 ./src/main.o
+ .comment       0x00000000       0x71 /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .ARM.attributes
+                0x000000cc       0x33 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .ARM.attributes
+                0x000000ff       0x33 ./src/FW_Drivers/Entradas_FW.o
+ .ARM.attributes
+                0x00000132       0x33 ./src/FW_Drivers/FW_7Seg.o
+ .ARM.attributes
+                0x00000165       0x33 ./src/FW_Drivers/FW_GPIO.o
+ .ARM.attributes
+                0x00000198       0x33 ./src/FW_Drivers/FW_LCD.o
+ .ARM.attributes
+                0x000001cb       0x33 ./src/FW_Drivers/FW_Systick.o
+ .ARM.attributes
+                0x000001fe       0x33 ./src/crp.o
+ .ARM.attributes
+                0x00000231       0x33 ./src/main.o
+ .ARM.attributes
+                0x00000264       0x33 /usr/local/lpcxpresso_7.9.0_455/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x668
+ .debug_frame   0x00000000       0x64 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_frame   0x00000064       0x2c ./src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_frame   0x00000090       0x4c ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_frame   0x000000dc       0x30 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_frame   0x0000010c      0x170 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_frame   0x0000027c       0x34 ./src/FW_Drivers/Entradas_FW.o
+ .debug_frame   0x000002b0       0x34 ./src/FW_Drivers/FW_7Seg.o
+ .debug_frame   0x000002e4      0x100 ./src/FW_Drivers/FW_GPIO.o
+ .debug_frame   0x000003e4      0x228 ./src/FW_Drivers/FW_LCD.o
+ .debug_frame   0x0000060c       0x2c ./src/FW_Drivers/FW_Systick.o
+ .debug_frame   0x00000638       0x30 ./src/main.o

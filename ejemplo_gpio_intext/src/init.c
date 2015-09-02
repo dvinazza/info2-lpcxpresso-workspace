@@ -3,14 +3,13 @@
 void init(void)
 {
 	Init_GPIO();
-	Init_IntExt();
+	//Init_IntExt();
 }
 
 void Init_GPIO(void)
 {
-	SetPINSEL(P0,28,00);
-	SetDIR(PORT0,28,1);
-
+	SetPINSEL(puertoLED,pinLED,00);
+	SetDIR(puertoLED,pinLED,1);
 }
 
 void Init_IntExt(void)
