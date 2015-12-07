@@ -23,27 +23,23 @@ __CRP const unsigned int CRP_WORD = CRP_NO_CRP ;
 #include <stdio.h>
 #include "Aplicacion.h"
 
-uint8_t buffer [TOPE];	//buffer de recepción
-uint8_t inx_out;		//índice de transmisión
-uint8_t inx_in;			//índice de recepción
-uint8_t enviando;		//variable auxiliar para disparar Tx
+uint8_t estado; 		//'global' del estado de la maquina
 
 int main(void)
 {
 	InicializarKit();	//inicialización del HW
-	InicializacionSW();	//inicialización de variables
+	inicializarSerie();
+
+	estado = ESPERANDO;
 	
+	uint8_t aux=15;
+
 	while(1) {
-		//U1THR = 0x55;
-		//U1THR = 0x00;
-		//U1THR = 0x01;
-		enviar_datos('1');
+		enviarTrama(aux);
+		//if ( (aux = Teclado()) != NOKEY ) { enviarTrama(aux); }
+		//aux = recibirTrama();
+		//display(aux);
 	}
 
 	return 0 ;
-}
-
-void InicializacionSW (void){
-	inx_out = inx_in = 0;  	//por profiláxis....
-	enviando = 0;
 }

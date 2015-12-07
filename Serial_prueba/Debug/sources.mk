@@ -15,6 +15,7 @@ EXECUTABLES :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 src \
+src/PRIMITIVAS \
 src/FW_inicializaciones \
 src/FW_drivers \
 

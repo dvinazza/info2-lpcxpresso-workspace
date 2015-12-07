@@ -10,8 +10,12 @@
 
 	#include "FW_GPIO.h"
 	#include "KitInfo2_BaseBoard.h"
+	#include "FW_initSYSTICK.h"
 
-	#define TOPE 16
+	#include "Teclado.h"
+	#include "Serie.h"
+
+	#include <string.h>
 
 	void InicializarKit ( void );
 	void InicializacionSW (void);
@@ -19,8 +23,15 @@
 	uint8_t lower (uint8_t c);
 	void InitUART1 (void);
 
-	void pushTX(uint8_t dato);
-	uint8_t popTX();
+	void enviarTrama(uint8_t dato);
+	uint8_t recibirTrama(void);
 
+	#define ESPERANDO 0
+	#define INICIO 1
+	#define RECIBIENDO 2
+	#define VALIDANDO 3
+
+	#define NOKEY 0
+	#define ERROR 255
 
 #endif /* APLICACION_H_ */

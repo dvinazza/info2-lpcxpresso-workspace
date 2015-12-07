@@ -7,20 +7,25 @@
 
 #include "Aplicacion.h"
 
-extern uint8_t buffer[TOPE];
-extern uint8_t inx_out;
-extern uint8_t inx_in;
+//las variables de la comunicación en serie
+extern uint8_t bufferTX[TOPE];
+extern uint8_t buffTX_out;
+extern uint8_t buffTX_in;
+extern uint8_t bufferRX[TOPE];
+extern uint8_t buffRX_out;
+extern uint8_t buffRX_in;
 extern uint8_t enviando;
+
 
 void UART1_IRQHandler (void) {
 
-	uint8_t iir, aux;
+	uint8_t iir;
 
 	do {
 		iir = U1IIR; //IIR es reset por HW, una vez que lo lei se resetea.
 
 		if ( iir & 0x02 ) { //envio
-			if (inx_in != inx_out) {
+			if (buffTX_in != buffTX_out) {
 				//Cuando saque el último...y los índices queden empatados...hay que cortar la RX
 				enviando = 1;	 		//aviso que estoy enviando
 				U1THR = popRX();

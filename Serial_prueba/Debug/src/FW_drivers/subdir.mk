@@ -6,16 +6,22 @@
 C_SRCS += \
 ../src/FW_drivers/FW_GPIO.c \
 ../src/FW_drivers/FW_SYSTICK.c \
+../src/FW_drivers/FW_Serie.c \
+../src/FW_drivers/FW_TECLADO.c \
 ../src/FW_drivers/FW_UART0.c 
 
 OBJS += \
 ./src/FW_drivers/FW_GPIO.o \
 ./src/FW_drivers/FW_SYSTICK.o \
+./src/FW_drivers/FW_Serie.o \
+./src/FW_drivers/FW_TECLADO.o \
 ./src/FW_drivers/FW_UART0.o 
 
 C_DEPS += \
 ./src/FW_drivers/FW_GPIO.d \
 ./src/FW_drivers/FW_SYSTICK.d \
+./src/FW_drivers/FW_Serie.d \
+./src/FW_drivers/FW_TECLADO.d \
 ./src/FW_drivers/FW_UART0.d 
 
 

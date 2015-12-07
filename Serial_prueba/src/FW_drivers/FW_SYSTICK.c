@@ -7,4 +7,6 @@ void systick_handler(void) {
 	else {
 		tiempo = 255;
 	} //cierra if
+
+	DriverTeclado();
 }

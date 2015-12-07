@@ -6,52 +6,38 @@
  */
 
 #include "Aplicacion.h"
-#include <string.h>
 
-extern uint8_t buffer[TOPE];
-extern uint8_t inx_out;
-extern uint8_t inx_in;
+volatile uint8_t bufferTeclado;
+
+extern uint8_t estado;
+
 extern uint8_t enviando;
 
-uint8_t upper (uint8_t c)
-{
-	if ( c >= 'a' && c <= 'z')
-		c = c - 'a' + 'A';
-
-	return c;
-}
-
-uint8_t lower (uint8_t c)
-{
-	if ( c >= 'A' && c <= 'Z')
-		c = c - 'A' + 'a';
-
-	return c;
-}
-
-void enviar_datos(uint8_t dato) {
+void enviarTrama(uint8_t dato) {
 	pushTX('#');
 	pushTX(dato);
 	pushTX('$');
 }
 
-void pushTX(uint8_t dato) {
-	buffer[inx_in] = dato;
-	inx_in++;
-	inx_in = inx_in % TOPE;
+uint8_t recibirTrama (void) {
+      int a;
+      uint8_t tecla;
 
-	if ( enviando ==  0 ) {
-		enviando = 1;
-		U1THR = buffer[inx_out];
-	}
-}
+      switch (estado) {
+      case ESPERANDO:
+              break;
 
-uint8_t popTX() {
-	int aux = -1;
-	if ( inx_in != inx_out ) {
-		aux = buffer[inx_out];
-		inx_out++;
-		inx_out = inx_out % TOPE;
-	}
-	return aux;
+      case INICIO:
+              break;
+
+      case RECIBIENDO:
+    	  break;
+
+      case VALIDANDO:
+              break;
+      default:
+    	  	  estado = ESPERANDO;
+      }
+
+      return NOKEY;
 }
